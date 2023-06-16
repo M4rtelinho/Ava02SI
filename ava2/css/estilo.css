@@ -1,0 +1,237 @@
+html {
+    font-family: sans-serif;
+    background-color: #f8f6f7;
+}
+
+.topo {
+    min-width: 1000px;
+    padding-bottom: 5px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid #f8f6f7;
+    background-color: #f8f6f7;
+}
+
+.viagem {
+    padding-top: 18px;
+}
+
+.lf,
+.ls,
+.lt {
+    padding-top: 3px;
+    font-size: 2em;
+}
+
+.lf {
+    color: #f35926;
+}
+
+.ls {
+    color: #fcb929;
+}
+
+.lt {
+    color: #00b049;
+}
+
+.ajeita {
+    display: flex;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.topo-certo {
+    display: flex;
+}
+
+.topo-direita,
+.topo-esquerda {
+    flex: 1;
+}
+
+.topo-esquerda {
+    letter-spacing: 0.4px;
+}
+
+.topo-direita {
+    padding-top: 18px;
+    text-align: right;
+    word-spacing: 2em;
+}
+
+.imagem {
+    padding-top: 60px;
+    padding-bottom: 160px;
+    min-width: 1000px;
+    background: url("../img/barcos.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+form > h2 {
+    margin-bottom: 1em;
+}
+
+form {
+    width: 1000px;
+    margin: 0 auto 2rem;
+    padding: 2rem;
+    border: 2px solid #edf2f9;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 7px 15px #3b415e1a;
+}
+
+.separacao {
+    display: flex;
+    gap: 8px;
+    
+}
+
+.campo {
+    width: 100%;
+    padding: 6px;
+    font-size: 20px;
+}
+
+button {
+    width: 30%;
+    color: white;
+    text-align: center;
+    background-color: #ea3d35;
+    border: 2px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.largura {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-weight: bold;
+    font-size:1.4em;
+    margin-bottom: 1em;
+}
+
+.separacao-viagem {
+    display: flex;
+    gap: 40px;
+}
+
+.margem {
+    font-weight: bold;
+    font-size:1.5em;
+    margin-bottom: 0.4em;
+    margin-top: 1em;
+}
+
+.bloco {
+    width: 22%;
+    margin: 0 auto 2rem;
+    border: 2px solid #edf2f9;
+    border-radius: 8px;
+    background: white;
+    height: 12em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px black;
+    margin-bottom: 40px;
+}
+
+.ver-mais {
+    color:black;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 8em;
+    font-weight:lighter;
+    font-size: 18px;
+    padding: 2px;
+    box-shadow: 0 7px 15px #2b2f441a;
+    
+}
+
+.tamanho {
+    padding-top: 2em;
+    font-size: 18px;
+}
+
+.valor {
+    font-size: 34px;
+    padding: 18px;
+    margin-bottom: 6px;
+    text-shadow: 1px 1px 10px black;
+}
+
+.rio {
+    border-radius: 10px;
+    background: url("../img/rio.webp");
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.bonito {
+    border-radius: 10px;
+    background: url("../img/bonito.webp");
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.sao {
+    border-radius: 10px;
+    background: url("../img/sao-paulo.webp");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+}
+
+.foz {
+    border-radius: 10px;
+    background: url("../img/foz.webp");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+}
+
+.maceio {
+    border-radius: 10px;
+    background: url("../img/maceio.webp");
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.salvador {
+    border-radius: 10px;
+    background: url("../img/salvador.webp");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.fortaleza {
+    border-radius: 10px;
+    background: url("../img/fortaleza.webp");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.belo {
+    border-radius: 10px;
+    background: url("../img/belo-horizonte.webp");
+    width: 100%;
+    background-size: cover;
+}
